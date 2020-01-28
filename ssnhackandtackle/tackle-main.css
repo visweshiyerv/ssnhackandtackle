@@ -1,0 +1,474 @@
+*{
+  overflow-x: hidden;
+}
+body {
+  background: #080808;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  overflow-y: hidden;
+}
+.navbar-nav{
+  padding-left: 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}}
+.navbar{background:black;}
+.nav-item::after{content:'';display:block;width:0px;height:2px;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color: green; border:0.1px solid green;margin-right: 3px; background-color: green; border-radius: 5px; color: white;}
+.nav-link{padding:10px;transition:0.2s;margin-right: 5px;}
+.bg-dark {
+  background-color: black !important;
+}
+/*#main-nav {
+  opacity: 0.9;
+  border-radius: 25px;
+  border-bottom: solid;
+  border-color: #008000;
+}*/
+.abtimg {
+/*	width: 30vw;
+	height: 30vw;*/
+  padding: auto;
+	margin: auto;
+	border-radius: 10px;
+}
+p {
+	font-size: 22px;
+	margin: auto;
+}
+
+/*.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.fade-in{
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.bg-image:hover{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}*/
+.info{
+  margin-top: 100px;
+}
+.text{
+  overflow-y: hidden;
+  color: black;
+}
+.abteve {
+  padding-top: 70px;
+  overflow-y: hidden;
+}
+.background-img {
+  /*background-color: #080;*/
+  color: white;
+  background: #1a1a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#000000, #1a1a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#000000, #1a1a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.ht-heading {
+  font-weight: 500;
+  color: #008000;
+  overflow-y: hidden;
+  margin-top: 30px;
+  text-align: center;
+}
+.ht-text {
+  font-size: 22px;
+  margin: auto;
+}
+#head-space{
+  margin-top: 50px;
+}
+.abt-text{
+  padding-top: 20px;
+  color: green;
+  overflow-y: hidden;
+}
+.tracks-heading{
+  overflow-y: hidden;
+  font-weight: 500;
+  text-align: center;
+  color: green;
+}
+.adjust{
+  padding-bottom: 50px;
+}
+.t-button{
+  margin: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px 7px 15px;
+}
+.t-button:hover{
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+}
+.thumbnail{
+  margin-top: 30px;
+}
+.tracks img {
+  width: 170px;
+  height: 190px;
+  margin: 5vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.map-heading{
+  font-weight: 500;
+  overflow-y: hidden;
+  color: green;
+  text-align: center;
+}
+.map{
+  margin-top: 50px;
+}
+.timeline-heading{
+  color: #008000;
+  font-weight: 500;
+  overflow-y: hidden;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.contact-body {
+  
+}
+.contact-heading{
+  font-weight: 500;
+  color: green;
+  overflow-y: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-text{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Josefin Slab', serif;
+}
+.icons{
+  margin-top: 30px;
+}
+.bg-img {
+  /*background-color: #080808;*/
+  color: white;
+  background: #1a1a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#000000, #1a1a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#000000, #1a1a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  width: 100%;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.faq-heading{
+	  font-weight: 500;
+      margin: auto;
+      padding: 25px;
+      text-align: center;
+      color: green;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .faq-sub{
+      color: green;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+    }
+    .faq-main {
+      padding: 0 15px;
+    }
+    .faq-grid {
+      margin: 0 0 35px;
+      padding: 40px 40px;
+      min-height: 300px;
+      background-color: white;
+    }
+    .faq-text{
+      color: #080808;
+      text-align: center;
+    }
+.faq-button{
+  border: 1.5px solid green;
+  color: white;
+  padding: 7px 15px 7px 15px;
+  background-color: green;
+}
+.faq-button:hover{
+  border-radius: 30px;
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+}
+.last-grid{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,233,9,1) 0%, rgba(246,249,249,1) 100%);
+}
+.one{
+  margin-top: 50px;
+}
+.two{
+  margin-top: 25px;
+}
+.three{
+  margin-top: 47px; 
+}
+.four{
+  margin-top: 45px;
+}
+.five{
+  margin-top: 40px
+}
+.six{
+  border:1px solid green;
+  background-color: green;
+  color: white;
+  padding: 7px 15px 7px 15px;
+  margin-top: 55px;
+}
+.m-button{
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+  padding: 10px; 
+}
+.modal-title{
+  color: green;
+}
+.modal-body{
+  color: black;
+}
+.mail-link:hover{
+  color: green;
+  text-decoration: none;
+}
+.front-page {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  overflow-y: hidden;
+  margin: 0px;
+}
+.overlay {
+    position:absolute;
+    top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-header{
+    position:absolute;
+    top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.organizes{
+  text-align: center;
+}
+.footer-text{
+  color: white;
+  text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 18px;
+  padding: 2px;
+}
+.footer{
+  margin-top: 30px;
+  background-color: #000;
+}
+.space-up{
+  margin-top: 20px;
+}
+#social-media:hover{
+  color: green;
+}
+.copyrights{
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-size: 10px;*/
+}
+.break{
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  border: 1px solid green;
+}
+.spacedown{
+  margin-bottom: 30px;
+}
+#demo{
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.bg-image {
+  background-image: url("img/new.jpg");
+  height: 350px;
+  width: 100vw; 
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.register-heading{
+  font-weight: 500;
+  color: green;
+  overflow-y: hidden;
+  text-align: center;
+}
+.cut-down{
+  padding-bottom: 30px;
+}
+.high-heading{
+  font-weight: 500;
+  color: green;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.gallery{
+  margin-top: 60px;
+}
+.carousel-indicators{
+  padding-top: 70px;  
+}
+.c-1{
+  width: 100%;
+  height: 100%;
+}
+.button:hover{
+    background-color: green;
+}
+h2,h5{
+   	overflow-y: hidden;
+}
+.faq-sub{
+    overflow-y: hidden;
+}
+.video {
+    width: 570px;
+    height: 315px;
+}
+.evt-img {
+    width: 540px;
+    height: 325px;
+}
+@media screen and (max-width: 576px){
+  .video {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 340px;
+  }
+  .evt-img {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+}
+.carousel-item{
+   	cursor: default;
+    margin-top: 10px;
+}
+.reg-top{
+    text-decoration: none;
+    color: white;
+}
+.reg-top:hover{
+    color: green;
+}
+.ppt-temp{
+    color: green;
+    text-decoration: none;
+}
+.ppt-temp:hover{
+    transform: scale(1.2);
+    color: green;
+}
+.reg-text{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.reg-button{
+    margin-top: 20px;
+    padding:7px 15px 7px 15px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.reg-button:hover{
+    background-color: darkgreen;
+}
+#timer{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+@media screen and (max-width: 576px) {
+    #timer{
+       font-size: 25px;
+    }
+}
+.note{
+    margin-top: 40px;
+}
+.note-text{
+    color: green;
+}
+.reg-top-button{
+    border: none;
+    background-color: green;
+    margin-top: 10px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+.reg-top-button:hover{
+    background-color: darkgreen;
+}
+.carousel-inner{
+    margin-top: 30px;
+}
+.bg-image{
+    overflow-y: hidden;
+}
+.name{
+  text-decoration: none;
+  color: white;
+}
+.name:hover{
+  color: green;
+}

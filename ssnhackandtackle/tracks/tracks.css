@@ -1,0 +1,55 @@
+body {
+    color: #fefefe;
+    font-family: 'Roboto Slab', serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Gentium Book Basic', serif;
+	letter-spacing: 2px;
+    /*font-family: 'Lato', sans-serif;*/
+    background: #3c8d25;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0e3300, #3c8d25);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0e3300, #3c8d25); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1,h2 {
+	text-align: center;
+	color: #080808;
+	margin-top: 2vw;
+	margin-bottom: 0.5rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+h1 span {
+	font-size: 1.3rem;
+}
+p {
+	font-size: 1.5vw;
+	margin-top: 2vw;
+	font-weight: 500;
+	/*font-family:   'Arial Verdana', serif;*/
+}
+ul li {
+	font-size: 1.5vw;
+	list-style-type: square;
+	padding: auto;
+	/*font-family:   'Arial Verdana', serif;*/
+}
+@media  only screen and (max-width: 497px) {
+	.logo {
+		width: 37%;
+		margin-top: 2vw;
+		padding: auto;
+		margin: auto;
+		border-radius: 20px;
+	}
+	h1,h2 {
+		font-size: 1.5rem;
+	}
+	h1 span {
+		font-size: 1.2rem;
+	}
+	p {
+		font-size: 5vw;
+	}
+	ul li {
+		font-size: 5vw;
+	}
+}
