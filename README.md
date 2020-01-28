@@ -1,1 +1,1 @@
-# hackandtackle
+I'm Viswesh Iyer V, currently pursuing my Bachelor's degree in Information Technology. This is the website I built for the Hack and Tackle 2.0, an inter and intra-college hackathon organized by the SSN IEEE.
